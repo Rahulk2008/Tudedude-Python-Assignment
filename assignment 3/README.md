@@ -1,63 +1,53 @@
+# 📘 Assignment 3 — Python Programming
 
-
-# 📝 Python Assignment: Assignment 1
-
-## 📌 Tasks Overview
-
-### Task 1: Factorial Calculation
-
-**Description:**
-Write a Python program to calculate the factorial of a given number using recursion. The program should prompt the user to enter a number and display its factorial.
+Welcome to **Assignment 3**, which focuses on building foundational Python programs using **functions, recursion, and standard libraries**. Each task demonstrates a specific computational concept through user interaction and mathematical operations.
 
 ---
 
-### Task 2: Mathematical Operations
+## 🧩 Task 1: Factorial Calculator (Using Recursion)
 
-**Description:**
-Create a Python program that takes a number from the user and computes:
+### 🔍 Description
+This task implements a program that calculates the **factorial of a given number** entered by the user.  
+The solution uses a **recursive function**, handling base cases appropriately to ensure correct results for all valid inputs.
 
-* Square root
-* Natural logarithm
-* Sine value
+### ✨ Key Features
+- Accepts integer input from the user
+- Uses recursion to compute factorial
+- Displays the calculated factorial clearly
 
-The program should display all computed results clearly.
+---
+
+## 🧮 Task 2: Mathematical Operations Using `math` Module
+
+### 🔍 Description
+This task demonstrates the use of Python’s built-in **`math` module** to perform multiple mathematical operations on a single user-provided number.
+
+The program computes:
+- Square root
+- Natural logarithm
+- Sine value
+
+### ✨ Key Features
+- Accepts floating-point input
+- Utilizes standard mathematical functions
+- Outputs multiple computed results in a readable format
 
 ---
 
 ## ⚙️ Requirements
 
-* Python 3.x
-* No external libraries required for Task 1
-* `math` module (standard Python library) for Task 2
+To run the programs in this assignment, ensure you have:
+
+- 🐍 Python 3.x installed
+- 📦 Access to Python’s standard library (`math` module)
+- 💻 A terminal or IDE (VS Code, PyCharm, IDLE, etc.)
 
 ---
 
-## 🚀 How to Run
+## ▶️ How to Run
 
-1. Ensure Python is installed on your system.
-2. Save each task in a separate `.py` file, e.g., `task1.py` and `task2.py`.
-3. Open a terminal and navigate to the folder containing the files.
-4. Run the program using:
-
+1. Open a terminal or command prompt  
+2. Navigate to the assignment directory  
+3. Run each task file using:
    ```bash
-   python task1.py
-   ```
-
-   or
-
-   ```bash
-   python task2.py
-   ```
-5. Follow the on-screen input prompts.
-
----
-
-## 🎯 Learning Outcomes
-
-* Understand and implement recursion in Python (Task 1).
-* Perform basic mathematical computations using Python’s `math` module (Task 2).
-* Practice taking user input and displaying formatted output.
-* Enhance problem-solving and logical thinking skills.
-
----
-
+   python filename.py
